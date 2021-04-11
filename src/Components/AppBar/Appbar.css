@@ -1,0 +1,33 @@
+.MuiIconButton-label {
+   
+    flex-direction: column;
+}
+
+.MuiPopover-paper {
+    outline: 0;
+    position: absolute;
+    width: 230px;
+    /* min-width: 16px; */
+    /* max-height: calc(100% - 32px); */
+    height: 250px;
+    min-height: 40px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.MuiList-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style: none;
+}
+
+.MuiAvatar-root {
+    width: 60px;
+    height: 60px;
+    
+}

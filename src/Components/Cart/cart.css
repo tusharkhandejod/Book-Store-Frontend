@@ -1,0 +1,99 @@
+.cartBody {
+    padding-top: 8%;
+    margin-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    min-height: 84vh;
+  }
+  .cartItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cartBookItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  .cartContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border: 1px lightgray solid;
+    font-weight: bold;
+    font-size: 15px;
+    width: 70%;
+    padding: 15px;
+    margin: 15px;
+  }
+  .cartBookImage {
+    width: 20%;
+    height: 70%;
+  }
+  .countItem {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+  }
+  .blockButton {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .inlineField {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 5%;
+  }
+  .inputField {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+    margin: 5px;
+  }
+  .inputAdderssField {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+    margin: 5px;
+    width: 72%;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .cartContainer {
+      width: 90%;
+    }
+    .inputAdderssField {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .cartBody {
+      width: 95%;
+      top: 10%;
+      margin: 2%;
+      left: auto;
+    }
+    .cartItem {
+      align-items: center;
+    }
+    .cartContainer {
+      width: 100%;
+      border: none;
+      padding: 5px;
+      margin: 5px;
+      margin-right: 10px;
+    }
+    .inlineField{
+      flex-direction: column;
+      width: 100%;
+    }
+  }
